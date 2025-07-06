@@ -1,0 +1,77 @@
+body{
+  background-color: rgb(201, 223, 245);
+}
+.surgery-img {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.surgery-img img {
+  height: 400px !important;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.surgery-img h2{
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: 10;
+  color: azure;
+  top: 150px;
+  left: 35%;
+}
+.result{
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(39, 38, 38);
+}
+.content{
+  margin-left: 50px;
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.c1{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: azure;
+}
+.c1 img{
+  height: 300px;
+  width:300px;
+  padding: 10px;
+}
+.c1 h3{
+  margin-top: 10px;
+  color: rgb(34, 34, 108);
+}
+.c1 button{
+  height: 45px;
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(33, 46, 132);
+  color: azure;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+footer{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 1020px;
+  background-color: rgb(5, 24, 61);
+  color: #f1eff5;
+  width: 100%;
+}
