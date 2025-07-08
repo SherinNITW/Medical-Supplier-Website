@@ -99,7 +99,10 @@ nav i{
 
 
 
-
+.imgs{
+  overflow-x: auto;
+  white-space: nowrap;
+}
 
 .header-slider ul{
   display: flex;
